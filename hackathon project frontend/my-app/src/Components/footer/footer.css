@@ -1,0 +1,38 @@
+html, body {
+    height: 100%; /* Ensure the body takes the full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  footer {
+    background-color: #bac3cd; /* Light background for contrast */
+    position: relative; /* Set footer position */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+  }
+  
+  footer h5 {
+    font-weight: bold;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height for the wrapper */
+  }
+  
+  .content {
+    flex: 1; /* Allow content to grow */
+  }
+  
